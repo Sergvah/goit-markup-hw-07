@@ -19,3 +19,12 @@ body {
 .comands__list {
   list-style-type: none;
 }
+.accent {
+  color: var(--accent-color);
+}
+button {
+  cursor: pointer;
+}
+image {
+  display: block;
+}
