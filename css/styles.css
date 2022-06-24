@@ -316,7 +316,7 @@ button {
   display: flex;
   width: 370px;
 }
-.doing__list:last-child {
+.doing__item:last-child {
   margin-right: 0px;
 }
 .base-title {
@@ -331,6 +331,9 @@ button {
 .doing__item {
   margin-right: 30px;
   position: relative;
+}
+.doing__item:last-child {
+  margin-right: 0px;
 }
 .doing__img {
   display: block;

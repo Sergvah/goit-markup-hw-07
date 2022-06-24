@@ -17,17 +17,17 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-}
-.hero__title {
-  color: var(--top-color);
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  width: 696px;
+  &__title {
+    color: var(--top-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    width: 696px;
 
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+  }
 }
