@@ -21,18 +21,7 @@ ol {
   margin: 0;
   padding: 0;
 }
-.visually-hidden {
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  margin: -1px;
-}
+
 html {
   box-sizing: border-box;
 }
@@ -43,25 +32,4 @@ html {
   margin: 0;
   padding: 0;
   list-style: none;
-}
-body {
-  margin: 0;
-  color: var(--primary-text-color);
-  font-family: "Roboto", sans-serif;
-  background-color: var(--top-color);
-}
-.our-works__item,
-.our-works__list,
-.project,
-.menu,
-.menu__item,
-.header__menu,
-.communications,
-.communications__item,
-.contacts,
-.footer-social__list,
-.special__list,
-.doing__list,
-.comands__list {
-  list-style-type: none;
 }

@@ -254,6 +254,9 @@ button {
 .hero__btn:focus {
   background-color: var(--third-bgd-color);
 }
+.hero__btn:active {
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
 .special {
   padding-top: 94px;
   padding-bottom: 47px;
@@ -382,6 +385,9 @@ button {
 
   max-width: 100%;
   height: auto;
+}
+.comands__base-title {
+  margin-bottom: 50px;
 }
 .employee {
   padding-top: 30px;
@@ -774,6 +780,9 @@ button {
 .subscribe__btn:hover {
   background-color: var(--third-bgd-color);
 }
+.subscribe__btn:active {
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
 .subscribe__icon {
   background-color: inherit;
   fill: var(--top-color);
@@ -987,4 +996,7 @@ button {
 .modal__btn-send:focus,
 .modal__btn-send:hover {
   background-color: var(--third-bgd-color);
+}
+.modal__btn-send:active {
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.15);
 }

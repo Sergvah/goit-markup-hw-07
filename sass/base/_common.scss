@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  color: var(--primary-text-color);
+  font-family: "Roboto", sans-serif;
+  background-color: var(--top-color);
+}
+.our-works__item,
+.our-works__list,
+.project,
+.menu,
+.menu__item,
+.header__menu,
+.communications,
+.communications__item,
+.contacts,
+.footer-social__list,
+.special__list,
+.doing__list,
+.comands__list {
+  list-style-type: none;
+}
